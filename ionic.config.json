@@ -1,0 +1,8 @@
+{
+  "name": "Tfg-ServidorMedicamentos",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "7d5d081d"
+}

@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Medicación</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-toolbar>
+      <ion-title size="large">Medicación actual</ion-title>
+  </ion-toolbar>
+  <ion-list>
+    <ion-item *ngFor="let med of medicamentos">
+      <ion-label>{{med.nombre}}</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
